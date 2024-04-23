@@ -1,0 +1,41 @@
+.footer {
+    content: '';
+    background: url('../../assets/images/pattern.png') right center;
+    background-repeat: no-repeat;
+    z-index: 999;
+}
+.section-padding-y {
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+}
+.mw255{
+    max-width: 255px;
+}
+.text-grey{
+    color: #777 !important;
+}
+.footerlink {
+    color: #777;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+.flogo {
+    border-radius: 100%;
+    width: 46px;
+}
+.social-link {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    transition: all 0.3s;
+    margin-right: 10px;
+}
+.text-sm {
+    font-size: 0.875rem;
+}

@@ -1,0 +1,52 @@
+.logo{
+    border-radius: 100%;
+    width: 70px;
+}
+.ml-auto{
+    margin-left: auto;
+}
+
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0px;
+    left: 0px;
+    z-index: 1030;
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s;
+}
+.navwhite{
+    background: #fff;
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 10%);
+}
+h1, .h1 {
+    font-size: 3rem !important;
+}
+@media (max-width: 767px){
+.fixed-top{
+    background: #fff;
+    padding-top: 0.7rem !important;
+    padding-bottom: 0.7rem !important;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 10%);
+}
+}
+.nav-link a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-link a.active{
+    color: #0a58ca !important;
+}
+.navbar-light .navbar-toggler {
+    color: transparent !important;
+    border-color: transparent !important;
+}
+   .navbar-light .navbar-toggler {
+    color: transparent !important;
+    border-color: transparent !important;
+}
